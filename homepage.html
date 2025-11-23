@@ -1,0 +1,66 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crescent Public School - Home</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="language.js" defer></script>
+</head>
+<body>
+<header>
+    <img src="LOGO.png" alt="School Logo" class="logo">
+    <h1 id="tagline">Nurturing Young Minds for a Bright Future !! Where Knowledge Meets Faith!!</h1>
+    <nav>
+        <ul>
+            <li><a href="homepage.html" id="nav-home">Home</a></li>
+            <li><a href="admissions.html" id="nav-admissions">Admissions</a></li>
+            <li><a href="curriculum.html" id="nav-curriculum">Curriculum</a></li>
+            <li><a href="hafiz.html" id="nav-hafiz">Hafiz Program</a></li>
+            <li><a href="contact.html" id="nav-contact">Contact</a></li>
+        </ul>
+    </nav>
+    <div class="language-toggle">
+        <button onclick="setLanguage('en')">English</button>
+        <button onclick="setLanguage('ta')">தமிழ்</button>
+    </div>
+</header>
+<section class="hero slider">
+    <div class="slide active">
+        <h2 id="hero-title">Admissions Open for 2025-26</h2>
+        <a href="admissions.html" class="btn" id="hero-btn">Apply Now</a>
+    </div>
+</section>
+<section id="about">
+    <h2 id="about-title">About Us</h2>
+    <p id="about-text">Crescent Public School blends CBSE academics with Islamic values, nurturing leaders for Duniya and Akhirah.</p>
+</section>
+<section id="vision-mission">
+    <div>
+        <h3 id="vision-title">Vision</h3>
+        <p id="vision-text">To be the benchmark for holistic education rooted in faith and excellence.</p>
+    </div>
+    <div>
+        <h3 id="mission-title">Mission</h3>
+        <p id="mission-text">To harmonize CBSE curriculum with Islamic principles, fostering academic brilliance and spiritual growth.</p>
+    </div>
+</section>
+<section id="hafiz" class="highlight">
+    <h2 id="hafiz-title">Hafiz Program</h2>
+    <p id="hafiz-text">A specialized track enabling students to become Hafiz by Grade 10 while excelling in academics.</p>
+</section>
+<footer>
+    <p id="footer-text">Contact: +91-XXXXXXXXXX | Email: info@crescentpublicschool.com</p>
+</footer>
+<script>
+    let slides = document.querySelectorAll('.slide');
+    let index = 0;
+    setInterval(() => {
+        slides[index].classList.remove('active');
+        index = (index + 1) % slides.length;
+        slides[index].classList.add('active');
+    }, 4000);
+</script>
+</body>
+</html>

@@ -1,0 +1,12 @@
+
+body {font-family: 'Poppins', sans-serif; margin:0; padding:0; background:#f9f9f9; color:#333;}
+header {background:#ff6f61; color:#fff; text-align:center; padding:10px;}
+nav ul {list-style:none; display:flex; justify-content:center; gap:15px;}
+nav ul li a {color:#fff; text-decoration:none; font-weight:600;}
+.hero {background:#ffe0b2; text-align:center; padding:50px;}
+.btn {background:#ff6f61; color:#fff; padding:10px 20px; text-decoration:none; border-radius:5px;}
+.language-toggle {margin-top:10px;}
+.language-toggle button {margin:5px; padding:8px 12px; border:none; background:#ffd54f; cursor:pointer;}
+.highlight {background:#ffd54f; padding:20px; text-align:center;}
+footer {background:#333; color:#fff; text-align:center; padding:10px;}
+@media (max-width:768px){nav ul{flex-direction:column;gap:10px;}header h1{font-size:1.2em;}.hero{padding:20px;}}
