@@ -1,0 +1,303 @@
+// Mock data for Crescent Primary and Nursery School
+
+export const schoolInfo = {
+  name: "Crescent Primary and Nursery School",
+  tagline: {
+    en: "Nurturing Young Minds for a Bright Future!! Where Knowledge Meets Faith!!",
+    ta: "பிரகாசமான எதிர்காலத்திற்காக இளம் மனங்களை வளர்த்தல்!! அறிவும் நம்பிக்கையும் சந்திக்கும் இடம்!!"
+  },
+  address: "Vellappakkam, Cuddalore, Tamil Nadu",
+  phone: "+91 98765 43210",
+  email: "info@crescentschool.edu.in"
+};
+
+export const heroImages = [
+  "https://images.unsplash.com/photo-1567057419565-4349c49d8a04?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2NzB8MHwxfHNlYXJjaHwzfHxoYXBweSUyMGNoaWxkcmVuJTIwc2Nob29sfGVufDB8fHx8MTc2Mzg4NzM1OXww&ixlib=rb-4.1.0&q=85",
+  "https://images.unsplash.com/photo-1758270704524-596810e891b5?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2Nzd8MHwxfHNlYXJjaHwxfHxkaXZlcnNlJTIwc3R1ZGVudHMlMjBjbGFzc3Jvb218ZW58MHx8fHwxNzYzODg3MzY2fDA&ixlib=rb-4.1.0&q=85"
+];
+
+export const navigationLinks = {
+  en: [
+    { name: "Home", path: "/" },
+    { name: "About Us", path: "/about" },
+    { name: "Admissions", path: "/admissions" },
+    { name: "Curriculum", path: "/curriculum" },
+    { name: "Hafiz Program", path: "/hafiz-program" },
+    { name: "Facilities", path: "/facilities" },
+    { name: "Gallery", path: "/gallery" },
+    { name: "Contact", path: "/contact" }
+  ],
+  ta: [
+    { name: "முகப்பு", path: "/" },
+    { name: "எங்களை பற்றி", path: "/about" },
+    { name: "சேர்க்கை", path: "/admissions" },
+    { name: "பாடத்திட்டம்", path: "/curriculum" },
+    { name: "ஹாஃபிழ் திட்டம்", path: "/hafiz-program" },
+    { name: "வசதிகள்", path: "/facilities" },
+    { name: "படத்தொகுப்பு", path: "/gallery" },
+    { name: "தொடர்பு", path: "/contact" }
+  ]
+};
+
+export const programs = {
+  en: [
+    {
+      id: 1,
+      title: "Nursery & Kindergarten",
+      description: "Play-based learning for children aged 2-5 years with focus on developing cognitive, social, and motor skills.",
+      icon: "Baby",
+      color: "bg-gradient-to-br from-pink-100 to-pink-200"
+    },
+    {
+      id: 2,
+      title: "Primary School",
+      description: "CBSE curriculum from Grades 1-5 with emphasis on academic excellence and character building.",
+      icon: "BookOpen",
+      color: "bg-gradient-to-br from-blue-100 to-blue-200"
+    },
+    {
+      id: 3,
+      title: "Hafiz Program",
+      description: "Specialized Quran memorization program enabling students to become Hafiz by Grade 10.",
+      icon: "Star",
+      color: "bg-gradient-to-br from-yellow-100 to-yellow-200"
+    },
+    {
+      id: 4,
+      title: "Extracurricular Activities",
+      description: "Sports, arts, cultural events, NCC, Scouts, and leadership programs for holistic development.",
+      icon: "Trophy",
+      color: "bg-gradient-to-br from-orange-100 to-orange-200"
+    }
+  ],
+  ta: [
+    {
+      id: 1,
+      title: "நர்சரி மற்றும் மழலையர்",
+      description: "2-5 வயது குழந்தைகளுக்கான விளையாட்டு அடிப்படையிலான கற்றல், அறிவாற்றல், சமூக மற்றும் மோட்டார் திறன்களை வளர்ப்பதில் கவனம் செலுத்துகிறது.",
+      icon: "Baby",
+      color: "bg-gradient-to-br from-pink-100 to-pink-200"
+    },
+    {
+      id: 2,
+      title: "தொடக்கப் பள்ளி",
+      description: "கிரேட் 1-5 வரை CBSE பாடத்திட்டம், கல்வி சிறப்பு மற்றும் குணநலன் கட்டமைப்பிற்கு முக்கியத்துவம்.",
+      icon: "BookOpen",
+      color: "bg-gradient-to-br from-blue-100 to-blue-200"
+    },
+    {
+      id: 3,
+      title: "ஹாஃபிழ் திட்டம்",
+      description: "10-ம் வகுப்பில் மாணவர்கள் ஹாஃபிழ் ஆவதற்கு சிறப்பு குர்ஆன் மனனம் செய்யும் திட்டம்.",
+      icon: "Star",
+      color: "bg-gradient-to-br from-yellow-100 to-yellow-200"
+    },
+    {
+      id: 4,
+      title: "பாடம் சாரா நடவடிக்கைகள்",
+      description: "விளையாட்டு, கலைகள், கலாச்சார நிகழ்வுகள், NCC, சாரணர் மற்றும் முழுமையான வளர்ச்சிக்கான தலைமைத்துவ திட்டங்கள்.",
+      icon: "Trophy",
+      color: "bg-gradient-to-br from-orange-100 to-orange-200"
+    }
+  ]
+};
+
+export const facilities = {
+  en: [
+    {
+      id: 1,
+      title: "Smart Classrooms",
+      description: "Interactive digital boards and modern teaching aids",
+      image: "https://images.unsplash.com/photo-1577896851231-70ef18881754"
+    },
+    {
+      id: 2,
+      title: "Library",
+      description: "Well-stocked library with Islamic and academic books",
+      image: "https://images.unsplash.com/photo-1481627834876-b7833e8f5570"
+    },
+    {
+      id: 3,
+      title: "Playground",
+      description: "Safe outdoor play areas for physical development",
+      image: "https://images.unsplash.com/photo-1575783970733-1aaedde1db74"
+    },
+    {
+      id: 4,
+      title: "Science Lab",
+      description: "Hands-on learning with modern lab equipment",
+      image: "https://images.unsplash.com/photo-1602052577122-f73b9710adba"
+    }
+  ],
+  ta: [
+    {
+      id: 1,
+      title: "ஸ்மார்ட் வகுப்பறைகள்",
+      description: "ஊடாடும் டிஜிட்டல் பலகைகள் மற்றும் நவீன கற்பித்தல் உதவிகள்",
+      image: "https://images.unsplash.com/photo-1577896851231-70ef18881754"
+    },
+    {
+      id: 2,
+      title: "நூலகம்",
+      description: "இஸ்லாமிய மற்றும் கல்வி புத்தகங்கள் நிறைந்த நூலகம்",
+      image: "https://images.unsplash.com/photo-1481627834876-b7833e8f5570"
+    },
+    {
+      id: 3,
+      title: "விளையாட்டு மைதானம்",
+      description: "உடல் வளர்ச்சிக்கான பாதுகாப்பான வெளி விளையாட்டு பகுதிகள்",
+      image: "https://images.unsplash.com/photo-1575783970733-1aaedde1db74"
+    },
+    {
+      id: 4,
+      title: "அறிவியல் ஆய்வகம்",
+      description: "நவீன ஆய்வக உபகரணங்களுடன் நேரடி கற்றல்",
+      image: "https://images.unsplash.com/photo-1602052577122-f73b9710adba"
+    }
+  ]
+};
+
+export const testimonials = {
+  en: [
+    {
+      id: 1,
+      name: "Mrs. Ayesha Rahman",
+      text: "CIET has been a blessing for our family. The balance between academic excellence and Islamic education is exactly what we were looking for.",
+      image: "https://images.unsplash.com/photo-1761891930310-ecee801d652f",
+      role: "Parent of Grade 3 Student"
+    },
+    {
+      id: 2,
+      name: "Mr. Mohammed Farooq",
+      text: "The teachers are dedicated and caring. My son has grown not just academically but also in his understanding of Islamic values.",
+      image: "https://images.unsplash.com/photo-1659352790654-058e9077a4f4",
+      role: "Parent of Grade 5 Student"
+    },
+    {
+      id: 3,
+      name: "Mrs. Fathima Begum",
+      text: "The Hafiz program is exceptional. My daughter is memorizing the Quran while maintaining excellent grades. Alhamdulillah!",
+      image: "https://images.unsplash.com/photo-1761891928632-602e24ceadb0",
+      role: "Parent of Grade 4 Student"
+    }
+  ],
+  ta: [
+    {
+      id: 1,
+      name: "திருமதி. ஆயிஷா ரஹ்மான்",
+      text: "CIET எங்கள் குடும்பத்திற்கு ஒரு ஆசீர்வாதமாக உள்ளது. கல்வி சிறப்பு மற்றும் இஸ்லாமிய கல்வி இடையேயான சமநிலை நாங்கள் தேடிக்கொண்டிருந்தது.",
+      image: "https://images.unsplash.com/photo-1761891930310-ecee801d652f",
+      role: "3-ம் வகுப்பு மாணவரின் பெற்றோர்"
+    },
+    {
+      id: 2,
+      name: "திரு. முகமது ஃபாரூக்",
+      text: "ஆசிரியர்கள் அர்ப்பணிப்பு மற்றும் அக்கறையுடன் உள்ளனர். என் மகன் கல்வியில் மட்டுமின்றி இஸ்லாமிய மதிப்புகளின் புரிதலிலும் வளர்ந்துள்ளார்.",
+      image: "https://images.unsplash.com/photo-1659352790654-058e9077a4f4",
+      role: "5-ம் வகுப்பு மாணவரின் பெற்றோர்"
+    },
+    {
+      id: 3,
+      name: "திருமதி. ஃபாத்திமா பேகம்",
+      text: "ஹாஃபிழ் திட்டம் சிறப்பானது. என் மகள் சிறந்த மதிப்பெண்களைப் பராமரிக்கும் போது குர்ஆனை மனப்பாடம் செய்து வருகிறாள். அல்ஹம்துலில்லாஹ்!",
+      image: "https://images.unsplash.com/photo-1761891928632-602e24ceadb0",
+      role: "4-ம் வகுப்பு மாணவரின் பெற்றோர்"
+    }
+  ]
+};
+
+export const galleryImages = [
+  {
+    id: 1,
+    url: "https://images.unsplash.com/photo-1709290749293-c6152a187b14",
+    category: "Classroom"
+  },
+  {
+    id: 2,
+    url: "https://images.unsplash.com/photo-1588072432836-e10032774350",
+    category: "Activities"
+  },
+  {
+    id: 3,
+    url: "https://images.unsplash.com/photo-1502086223501-7ea6ecd79368",
+    category: "Sports"
+  },
+  {
+    id: 4,
+    url: "https://images.unsplash.com/photo-1606092195730-5d7b9af1efc5",
+    category: "Events"
+  },
+  {
+    id: 5,
+    url: "https://images.unsplash.com/photo-1643429096345-9de0d2ab7e7c",
+    category: "Islamic Studies"
+  },
+  {
+    id: 6,
+    url: "https://images.unsplash.com/photo-1629273229664-11fabc0becc0",
+    category: "Quran Class"
+  }
+];
+
+export const aboutContent = {
+  en: {
+    vision: "To be the beacon of holistic education in Cuddalore, blending academic excellence with Islamic values, nurturing confident, compassionate, and future-ready leaders who serve society and uphold faith.",
+    mission: "Our mission is to provide a stimulating learning environment that harmonizes the CBSE curriculum with Quranic studies and moral education. We aim to empower every child with knowledge, character, and spirituality—preparing them to excel in academics, embrace lifelong learning, and live by Islamic principles while contributing positively to the world.",
+    principalMessage: "Assalamu Alaikum and Warm Greetings to All Parents and Well-Wishers. Education is not just about grades—it's about character, faith, and lifelong learning. At CIET, we prepare your child for success in both worlds.",
+    principalName: "I. Mohammed Kamaludeen",
+    principalTitle: "Founder & Principal"
+  },
+  ta: {
+    vision: "குடலூரில் முழுமையான கல்வியின் ஒளிவிளக்காக இருத்தல், கல்வி சிறப்புடன் இஸ்லாமிய மதிப்புகளை கலந்து, சமூகத்திற்கு சேவை செய்யும் மற்றும் நம்பிக்கையை நிலைநிறுத்தும் நம்பிக்கையுள்ள, இரக்கமுள்ள, எதிர்காலத்திற்கு தயாரான தலைவர்களை வளர்த்தல்.",
+    mission: "CBSE பாடத்திட்டத்தை குர்ஆன் படிப்புகள் மற்றும் ஒழுக்க கல்வியுடன் இணைக்கும் தூண்டுதல் நிறைந்த கற்றல் சூழலை வழங்குவது எங்கள் பணி. ஒவ்வொரு குழந்தையையும் அறிவு, குணநலன் மற்றும் ஆன்மீகத்துடன் மேம்படுத்துவது எங்கள் நோக்கம்—கல்வியில் சிறந்து விளங்க, வாழ்நாள் கற்றலை தழுவுவதற்கு மற்றும் உலகிற்கு நேர்மறையாக பங்களிக்கும் போது இஸ்லாமிய கொள்கைகளின்படி வாழ தயார்படுத்துதல்.",
+    principalMessage: "அஸ்ஸலாமு அலைக்கும் மற்றும் அனைத்து பெற்றோர்கள் மற்றும் நலம் விரும்பிகளுக்கு அன்பான வாழ்த்துக்கள். கல்வி என்பது மதிப்பெண்களை பற்றி மட்டுமல்ல—அது குணநலன், நம்பிக்கை மற்றும் வாழ்நாள் கற்றல் பற்றியது. CIET-ல், உங்கள் குழந்தையை இரு உலகங்களிலும் வெற்றிக்கு தயார்படுத்துகிறோம்.",
+    principalName: "I. முகமது கமாலுதீன்",
+    principalTitle: "நிறுவனர் மற்றும் முதல்வர்"
+  }
+};
+
+export const hafizProgram = {
+  en: {
+    title: "Hafiz Program",
+    subtitle: "Enabling Students to Become Hafiz by Grade 10",
+    description: "Our specialized Hafiz program is designed to help students memorize the entire Holy Quran while maintaining academic excellence in the CBSE curriculum. Students receive dedicated guidance from qualified Qari teachers and follow a structured memorization schedule.",
+    features: [
+      "Qualified Qari teachers with Ijazah",
+      "Structured memorization curriculum",
+      "Daily revision sessions",
+      "Integration with academic schedule",
+      "Regular assessments and progress tracking",
+      "Completion certificate upon becoming Hafiz"
+    ],
+    image: "https://images.unsplash.com/photo-1643429096345-9de0d2ab7e7c"
+  },
+  ta: {
+    title: "ஹாஃபிழ் திட்டம்",
+    subtitle: "10-ம் வகுப்பில் மாணவர்கள் ஹாஃபிழ் ஆவதற்கு வழிவகுத்தல்",
+    description: "எங்கள் சிறப்பு ஹாஃபிழ் திட்டம் CBSE பாடத்திட்டத்தில் கல்வி சிறப்பை பராமரிக்கும் போது முழு பரிசுத்த குர்ஆனை மனப்பாடம் செய்ய மாணவர்களுக்கு உதவ வடிவமைக்கப்பட்டுள்ளது. மாணவர்கள் தகுதிவாய்ந்த கரீ ஆசிரியர்களிடமிருந்து அர்ப்பணிப்புள்ள வழிகாட்டுதலைப் பெறுகிறார்கள் மற்றும் கட்டமைக்கப்பட்ட மனப்பாட அட்டவணையைப் பின்பற்றுகிறார்கள்.",
+    features: [
+      "இஜாஸா கொண்ட தகுதிவாய்ந்த கரீ ஆசிரியர்கள்",
+      "கட்டமைக்கப்பட்ட மனப்பாட பாடத்திட்டம்",
+      "தினசரி திருத்த அமர்வுகள்",
+      "கல்வி அட்டவணையுடன் ஒருங்கிணைப்பு",
+      "வழக்கமான மதிப்பீடுகள் மற்றும் முன்னேற்ற கண்காணிப்பு",
+      "ஹாஃபிழ் ஆனதும் முடிவு சான்றிதழ்"
+    ],
+    image: "https://images.unsplash.com/photo-1643429096345-9de0d2ab7e7c"
+  }
+};
+
+export const admissionProcess = {
+  en: [
+    { step: 1, title: "Fill Online Application", description: "Complete the admission form online" },
+    { step: 2, title: "Submit Documents", description: "Upload required documents" },
+    { step: 3, title: "Interview", description: "Parent-student interaction with principal" },
+    { step: 4, title: "Admission Confirmation", description: "Receive admission letter and pay fees" }
+  ],
+  ta: [
+    { step: 1, title: "ஆன்லைன் விண்ணப்பத்தை நிரப்பவும்", description: "சேர்க்கை படிவத்தை ஆன்லைனில் முடிக்கவும்" },
+    { step: 2, title: "ஆவணங்களை சமர்ப்பிக்கவும்", description: "தேவையான ஆவணங்களை பதிவேற்றவும்" },
+    { step: 3, title: "நேர்காணல்", description: "முதல்வருடன் பெற்றோர்-மாணவர் தொடர்பு" },
+    { step: 4, title: "சேர்க்கை உறுதிப்படுத்தல்", description: "சேர்க்கை கடிதத்தைப் பெற்று கட்டணம் செலுத்தவும்" }
+  ]
+};
